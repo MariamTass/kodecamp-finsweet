@@ -1,0 +1,351 @@
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        .container {
+                                            width: 80%;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .main-header {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            padding: 10px 5px;
+                                        }
+                                        
+                                        .right-section ul {
+                                            list-style: none;
+                                            display: flex;
+                                            align-items: center;
+                                        }
+                                        
+                                        .right-section {
+                                            display: flex;
+                                        }
+                                        
+                                        .road-assistance {
+                                            display: flex;
+                                            padding-left: 20px;
+                                        }
+                                        
+                                        .right-section ul li {
+                                            margin-right: 20px;
+                                        }
+                                        
+                                        .right-section ul li a {
+                                            text-decoration: none;
+                                            color: black;
+                                        }
+                                        
+                                        .right-section .navigation {
+                                            border-right: 2px solid #ccc;
+                                        }
+                                        
+                                        .road-assistance .icon {
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        .flex {
+                                            display: flex;
+                                        }
+                                        
+                                        #hero-section .text-section,
+                                        #hero-section .image-section {
+                                            width: 50%;
+                                        }
+                                        
+                                        #hero-section,
+                                        #quote-section,
+                                        #process-section,
+                                        #offer-section {
+                                            padding: 80px 0px;
+                                        }
+                                        
+                                        #hero-section .image-section {
+                                            background-image: url(../img/Header\ Image.png);
+                                            background-size: cover;
+                                            background-position: center;
+                                            height: 70vh;
+                                        }
+                                        
+                                        .text-section h1 {
+                                            font-size: 60px;
+                                        }
+                                        
+                                        .orange-btn {
+                                            background: #FF6433;
+                                            border-radius: 12px;
+                                            padding: 16px 40px;
+                                            font-size: 18px;
+                                            margin-top: 35px;
+                                            text-decoration: none;
+                                            display: inline-block;
+                                            color: #ffff;
+                                            -webkit-border-radius: 12px;
+                                            -moz-border-radius: 12px;
+                                            -ms-border-radius: 12px;
+                                            -o-border-radius: 12px;
+                                        }
+                                        
+                                        .time-section img {
+                                            width: 100%;
+                                        }
+                                        
+                                        .time-section .image-box {
+                                            width: 5%;
+                                        }
+                                        
+                                        .time-section .time-text {
+                                            width: 95%;
+                                            margin-left: 10px;
+                                        }
+                                        
+                                        .time-section {
+                                            margin-top: 30px;
+                                            align-items: center;
+                                        }
+                                        
+                                        .light-grey {
+                                            color: #939191;
+                                        }
+                                        
+                                        #quote-section {
+                                            background: #E2E6E9;
+                                        }
+                                        
+                                        #quote-section .left-section,
+                                        #quote-section .right-form-section {
+                                            width: 45%;
+                                        }
+                                        
+                                        #quote-section ul {
+                                            list-style: none;
+                                        }
+                                        
+                                        #quote-section ul li {
+                                            margin-bottom: 20px;
+                                        }
+                                        
+                                        #quote-section .left-section h2 {
+                                            margin-bottom: 30px;
+                                            font-size: 54px;
+                                            padding-right: 30px;
+                                        }
+                                        
+                                        #quote-section .left-section .image-box {
+                                            width: 5%;
+                                        }
+                                        
+                                        #quote-section .left-section .image-box img {
+                                            width: 100%;
+                                        }
+                                        
+                                        #quote-section .left-section .text-box {
+                                            width: 60%;
+                                        }
+                                        
+                                        #quote-section .left-section .text-box h5 {
+                                            font-size: 24px;
+                                            margin-bottom: 5px;
+                                        }
+                                        
+                                        #quote-section .right-form-section h3 {
+                                            font-size: 48px;
+                                        }
+                                        
+                                        #quote-section .right-form-section {
+                                            padding-left: 40px;
+                                        }
+                                        
+                                        #quote-section .right-form-section input {
+                                            width: 100%;
+                                            padding: 10px;
+                                            margin-bottom: 2px;
+                                            color: #1E1B1B;
+                                        }
+                                        
+                                        .right-quote ul {
+                                            list-style: none;
+                                        }
+                                        
+                                        .right-quote ul li {
+                                            margin-bottom: 20px;
+                                        }
+                                        
+                                        .right-quote .image-box img {
+                                            width: 70%;
+                                        }
+                                        
+                                        .right-quote .line-box {
+                                            width: 5%;
+                                            margin-left: 18px;
+                                        }
+                                        
+                                        #offer-section h1 {
+                                            font-size: 58px;
+                                        }
+                                        
+                                        #process-section .left-quote h2 {
+                                            font-weight: 800;
+                                            font-size: 58px;
+                                            margin-top: 40px;
+                                            width: 70%;
+                                        }
+                                        
+                                        #process-section .left-quote p {
+                                            font-weight: 600;
+                                            font-size: 16px;
+                                            color: #1E1B1B;
+                                            opacity: 0.6;
+                                            width: 55%;
+                                        }
+                                        
+                                        #offer-section {
+                                            min-height: 100vh;
+                                            padding: 80px 0px;
+                                            background: #E2E6E9;
+                                        }
+                                        
+                                        #offer-section h2,
+                                        #offer-section h5 {
+                                            text-align: center;
+                                        }
+                                        
+                                        #offer-section h5 {
+                                            font-size: 20px;
+                                        }
+                                        
+                                        #offer-section h2 {
+                                            font-size: 40px;
+                                        }
+                                        
+                                        #offer-section .offers .offer-box {
+                                            background: #fff;
+                                            height: 232px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            text-align: center;
+                                            width: 24.5%;
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        #offer-section .offers {
+                                            flex-wrap: wrap;
+                                            margin-top: 40px;
+                                            justify-content: space-between;
+                                            margin-bottom: 15px;
+                                        }
+                                        
+                                        #offer-section .offers .offer-box:hover {
+                                            background: #FF6433;
+                                            color: #fff;
+                                            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .learn-arrow a {
+                                            display: flex;
+                                            color: #1E1B1B;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        .learn-arrow {
+                                            display: flex;
+                                            justify-content: end;
+                                        }
+                                        
+                                        .learn-arrow a p {
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        #service-section {
+                                            height: 500px;
+                                            display: flex;
+                                        }
+                                        
+                                        #service-section .car-section {
+                                            width: 20%;
+                                            height: 500px;
+                                            background: url(../img/vehicle.png);
+                                            background-repeat: no-repeat;
+                                            background-position: left;
+                                            background-size: cover;
+                                        }
+                                        
+                                        #service-section .orange-section {
+                                            width: 40%;
+                                            background: #FF6433;
+                                            height: 500px;
+                                        }
+                                        
+                                        #service-section .auto-section {
+                                            width: 40%;
+                                            height: 500px;
+                                            background: url(../img/unsplash.png) no-repeat;
+                                            background-size: cover;
+                                            background-position: center;
+                                        }
+                                         
+                                        #service-section .orange-text {
+                                            color: #fff;
+                                            height: 134px;
+                                            width: 549px;
+                                            font-size: 22px;
+                                            font-weight: 700px;
+                                            padding: 80px;
+                                            margin-top: 140px;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            padding-bottom: 80px;
+                                        }
+                                        
+                                        #experience-section {
+                                            background: #F2F2F2;
+                                            /* width: 1920px; */
+                                            height: 210px;
+                                        }
+                                        
+                                        #experience-section .plus {
+                                            display: flex;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                            padding: 60px;
+                                        }
+                                        
+                                        #experience-section .plus h2 {
+                                            font-size: 58px;
+                                            color: #661CE7;
+                                        }
+                                        
+                                        #experience-section .plus p {
+                                            font-size: 24px;
+                                            color: #1E1B1B;
+                                            opacity: 70%;
+                                        }
+                                        
+                                        #brand-section {
+                                            background: #FAFAFA;
+                                        }
+                                        
+                                        #brand-section .container h5,
+                                        #brand-section .container .brand-box {
+                                            text-align: center;
+                                        }
+                                        
+                                        #brand-section .container h5 {
+                                            padding-top: 100px;
+                                        }
+                                        
+                                        #brand-section .container h5 {
+                                            font-size: 48px;
+                                        }
+                                        
+                                        #brand-section img {
+                                            width: 100%;
+                                            overflow: hidden;
+                                        }
