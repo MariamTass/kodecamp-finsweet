@@ -293,29 +293,25 @@
                                         
                                         #service-section .orange-text {
                                             color: #fff;
-                                            height: 134px;
-                                            width: 549px;
                                             font-size: 22px;
-                                            font-weight: 700px;
-                                            padding: 80px;
-                                            margin-top: 140px;
+                                            padding-right: 80px;
+                                            margin-top: 120px;
                                             display: flex;
-                                            justify-content: center;
+                                            justify-content: flex-start;
+                                            margin-bottom: 10px;
                                             align-items: center;
-                                            padding-bottom: 80px;
                                         }
                                         
                                         #experience-section {
                                             background: #F2F2F2;
-                                            /* width: 1920px; */
                                             height: 210px;
+                                            padding: 40px;
                                         }
                                         
                                         #experience-section .plus {
                                             display: flex;
                                             justify-content: space-around;
                                             align-items: center;
-                                            padding: 60px;
                                         }
                                         
                                         #experience-section .plus h2 {
@@ -424,5 +420,38 @@
                                             }
                                             #offer-section .offers .offer-box {
                                                 width: 100%;
+                                            }
+                                            #service-section {
+                                                flex-direction: column;
+                                            }
+                                            #service-section .orange-section,
+                                            #service-section .car-section,
+                                            #service-section .auto-section {
+                                                width: 100%;
+                                            }
+                                            #service-section .orange-text {
+                                                margin-top: 10px;
+                                            }
+                                            #experience-section {
+                                                width: 100%;
+                                            }
+                                            #experience-section .plus {
+                                                align-items: flex-start;
+                                                justify-content: space-around;
+                                                margin-top: 30px;
+                                            }
+                                            #experience-section .plus h2,
+                                            #experience-section .plus p {
+                                                font-size: 20px;
+                                                margin-left: 15px;
+                                            }
+                                            #experience-section .plus h2 {
+                                                font-size: 35px;
+                                            }
+                                            #experience-section .plus p {
+                                                font-size: 15px;
+                                            }
+                                            #brand-section .container h5 {
+                                                padding-top: 30px;
                                             }
                                         }
