@@ -148,6 +148,10 @@
                                             width: 60%;
                                         }
                                         
+                                        .justify-between {
+                                            justify-content: space-between;
+                                        }
+                                        
                                         #quote-section .left-section .text-box h5 {
                                             font-size: 24px;
                                             margin-bottom: 5px;
@@ -453,5 +457,36 @@
                                             }
                                             #brand-section .container h5 {
                                                 padding-top: 30px;
+                                            }
+                                        }
+                                        
+                                        @media (max-width: 769px) {
+                                            .container {
+                                                width: 90%;
+                                            }
+                                            .road-assistance {
+                                                display: none;
+                                            }
+                                            .text-section h1,
+                                            #quote-section .left-section h2,
+                                            #quote-section .right-form-section h3,
+                                            #process-section .left-quote h2 {
+                                                font-size: 35px;
+                                            }
+                                            #process-section {
+                                                justify-content: space-between;
+                                            }
+                                            #quote-section .left-section .image-box {
+                                                width: 15%;
+                                            }
+                                            #quote-section .left-section .text-box {
+                                                width: 70%;
+                                            }
+                                            #offer-section h2 {
+                                                font-size: 35px;
+                                            }
+                                            #offer-section .offers .offer-box {
+                                                width: 32.6%;
+                                                margin-bottom: 8px;
                                             }
                                         }
