@@ -1,492 +1,877 @@
-                                        * {
-                                            margin: 0;
-                                            padding: 0;
-                                            box-sizing: border-box;
-                                        }
-                                        
-                                        .container {
-                                            width: 80%;
-                                            margin: 0 auto;
-                                        }
-                                        
-                                        .main-header {
-                                            display: flex;
-                                            justify-content: space-between;
-                                            align-items: center;
-                                            padding: 10px 5px;
-                                        }
-                                        
-                                        .right-section ul {
-                                            list-style: none;
-                                            display: flex;
-                                            align-items: center;
-                                        }
-                                        
-                                        .right-section {
-                                            display: flex;
-                                        }
-                                        
-                                        .road-assistance {
-                                            display: flex;
-                                            padding-left: 20px;
-                                        }
-                                        
-                                        .right-section ul li {
-                                            margin-right: 20px;
-                                        }
-                                        
-                                        .right-section ul li a {
-                                            text-decoration: none;
-                                            color: black;
-                                        }
-                                        
-                                        .right-section .navigation {
-                                            border-right: 2px solid #ccc;
-                                        }
-                                        
-                                        .road-assistance .icon {
-                                            margin-right: 10px;
-                                        }
-                                        
-                                        .flex {
-                                            display: flex;
-                                        }
-                                        
-                                        #hero-section .text-section,
-                                        #hero-section .image-section {
-                                            width: 50%;
-                                        }
-                                        
-                                        #hero-section,
-                                        #quote-section,
-                                        #process-section,
-                                        #offer-section {
-                                            padding: 80px 0px;
-                                        }
-                                        
-                                        #hero-section .image-section {
-                                            background-image: url(../img/Header\ Image.png);
-                                            background-size: cover;
-                                            background-position: center;
-                                            height: 70vh;
-                                        }
-                                        
-                                        .text-section h1 {
-                                            font-size: 60px;
-                                        }
-                                        
-                                        .orange-btn {
-                                            background: #FF6433;
-                                            border-radius: 12px;
-                                            padding: 16px 40px;
-                                            font-size: 18px;
-                                            margin-top: 35px;
-                                            text-decoration: none;
-                                            display: inline-block;
-                                            color: #ffff;
-                                            -webkit-border-radius: 12px;
-                                            -moz-border-radius: 12px;
-                                            -ms-border-radius: 12px;
-                                            -o-border-radius: 12px;
-                                        }
-                                        
-                                        .time-section img {
-                                            width: 100%;
-                                        }
-                                        
-                                        .time-section .image-box {
-                                            width: 5%;
-                                        }
-                                        
-                                        .time-section .time-text {
-                                            width: 95%;
-                                            margin-left: 10px;
-                                        }
-                                        
-                                        .time-section {
-                                            margin-top: 30px;
-                                            align-items: center;
-                                        }
-                                        
-                                        .light-grey {
-                                            color: #939191;
-                                        }
-                                        
-                                        #quote-section {
-                                            background: #E2E6E9;
-                                        }
-                                        
-                                        #quote-section .left-section,
-                                        #quote-section .right-form-section {
-                                            width: 45%;
-                                        }
-                                        
-                                        #quote-section ul {
-                                            list-style: none;
-                                        }
-                                        
-                                        #quote-section ul li {
-                                            margin-bottom: 20px;
-                                        }
-                                        
-                                        #quote-section .left-section h2 {
-                                            margin-bottom: 30px;
-                                            font-size: 54px;
-                                            padding-right: 30px;
-                                        }
-                                        
-                                        #quote-section .left-section .image-box {
-                                            width: 5%;
-                                            margin-right: 10px;
-                                        }
-                                        
-                                        #quote-section .left-section .image-box img {
-                                            width: 100%;
-                                        }
-                                        
-                                        #quote-section .left-section .text-box {
-                                            width: 60%;
-                                        }
-                                        
-                                        .justify-between {
-                                            justify-content: space-between;
-                                        }
-                                        
-                                        #quote-section .left-section .text-box h5 {
-                                            font-size: 24px;
-                                            margin-bottom: 5px;
-                                        }
-                                        
-                                        #quote-section .right-form-section h3 {
-                                            font-size: 48px;
-                                        }
-                                        
-                                        #quote-section .right-form-section {
-                                            padding-left: 40px;
-                                        }
-                                        
-                                        #quote-section .right-form-section input {
-                                            width: 100%;
-                                            padding: 10px;
-                                            margin-bottom: 2px;
-                                            color: #1E1B1B;
-                                        }
-                                        
-                                        .right-quote ul {
-                                            list-style: none;
-                                        }
-                                        
-                                        .right-quote ul li {
-                                            margin-bottom: 20px;
-                                        }
-                                        
-                                        .right-quote .image-box img {
-                                            width: 70%;
-                                        }
-                                        
-                                        .right-quote .line-box {
-                                            width: 5%;
-                                            margin-left: 14px;
-                                        }
-                                        
-                                        #offer-section h1 {
-                                            font-size: 58px;
-                                        }
-                                        
-                                        #process-section .left-quote h2 {
-                                            font-weight: 800;
-                                            font-size: 58px;
-                                            margin-top: 40px;
-                                            width: 70%;
-                                        }
-                                        
-                                        #process-section .left-quote p {
-                                            font-weight: 600;
-                                            font-size: 16px;
-                                            color: #1E1B1B;
-                                            opacity: 0.6;
-                                            width: 55%;
-                                        }
-                                        
-                                        #offer-section {
-                                            min-height: 100vh;
-                                            padding: 80px 0px;
-                                            background: #E2E6E9;
-                                        }
-                                        
-                                        #offer-section h2,
-                                        #offer-section h5 {
-                                            text-align: center;
-                                        }
-                                        
-                                        #offer-section h5 {
-                                            font-size: 20px;
-                                        }
-                                        
-                                        #offer-section h2 {
-                                            font-size: 40px;
-                                        }
-                                        
-                                        #offer-section .offers .offer-box {
-                                            background: #fff;
-                                            height: 232px;
-                                            display: flex;
-                                            justify-content: center;
-                                            align-items: center;
-                                            text-align: center;
-                                            width: 24.5%;
-                                            margin-bottom: 10px;
-                                        }
-                                        
-                                        #offer-section .offers {
-                                            flex-wrap: wrap;
-                                            margin-top: 40px;
-                                            justify-content: space-between;
-                                            margin-bottom: 15px;
-                                        }
-                                        
-                                        #offer-section .offers .offer-box:hover {
-                                            background: #FF6433;
-                                            color: #fff;
-                                            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-                                            cursor: pointer;
-                                        }
-                                        
-                                        .learn-arrow a {
-                                            display: flex;
-                                            color: #1E1B1B;
-                                            text-decoration: none;
-                                        }
-                                        
-                                        .learn-arrow {
-                                            display: flex;
-                                            justify-content: end;
-                                        }
-                                        
-                                        .learn-arrow a p {
-                                            margin-right: 10px;
-                                        }
-                                        
-                                        #service-section {
-                                            height: 500px;
-                                            display: flex;
-                                        }
-                                        
-                                        #service-section .car-section {
-                                            width: 20%;
-                                            height: 500px;
-                                            background: url(../img/vehicle.png);
-                                            background-repeat: no-repeat;
-                                            background-position: left;
-                                            background-size: cover;
-                                        }
-                                        
-                                        #service-section .orange-section {
-                                            width: 40%;
-                                            background: #FF6433;
-                                            height: 500px;
-                                        }
-                                        
-                                        #service-section .auto-section {
-                                            width: 40%;
-                                            height: 500px;
-                                            background: url(../img/unsplash.png) no-repeat;
-                                            background-size: cover;
-                                            background-position: center;
-                                        }
-                                        
-                                        #service-section .orange-text {
-                                            color: #fff;
-                                            font-size: 22px;
-                                            padding-right: 80px;
-                                            margin-top: 120px;
-                                            display: flex;
-                                            justify-content: flex-start;
-                                            margin-bottom: 10px;
-                                            align-items: center;
-                                        }
-                                        
-                                        #experience-section {
-                                            background: #F2F2F2;
-                                            height: 210px;
-                                            padding: 40px;
-                                        }
-                                        
-                                        #experience-section .plus {
-                                            display: flex;
-                                            justify-content: space-around;
-                                            align-items: center;
-                                        }
-                                        
-                                        #experience-section .plus h2 {
-                                            font-size: 58px;
-                                            color: #661CE7;
-                                        }
-                                        
-                                        #experience-section .plus p {
-                                            font-size: 24px;
-                                            color: #1E1B1B;
-                                            opacity: 70%;
-                                        }
-                                        
-                                        #brand-section {
-                                            background: #FAFAFA;
-                                        }
-                                        
-                                        #brand-section .container h5,
-                                        #brand-section .container .brand-box {
-                                            text-align: center;
-                                        }
-                                        
-                                        #brand-section .container h5 {
-                                            padding-top: 100px;
-                                        }
-                                        
-                                        #brand-section .container h5 {
-                                            font-size: 48px;
-                                        }
-                                        
-                                        #brand-section img {
-                                            width: 100%;
-                                            overflow: hidden;
-                                        }
-                                        
-                                        @media (max-width: 426px) {
-                                            .main-header {
-                                                flex-direction: column;
-                                                align-items: flex-start;
-                                            }
-                                            .right-section {
-                                                flex-direction: column;
-                                                align-items: flex-start;
-                                                width: 100%;
-                                                display: none;
-                                            }
-                                            .right-section .navigation {
-                                                border: none;
-                                                width: 100%;
-                                            }
-                                            .right-section .navigation ul {
-                                                flex-direction: column;
-                                                align-items: flex-start;
-                                            }
-                                            .right-section ul li {
-                                                padding: 10px;
-                                                margin-right: 0px;
-                                                width: 100%;
-                                            }
-                                            #hero-section .text-section,
-                                            #hero-section .image-section {
-                                                width: 100%;
-                                            }
-                                            #hero-section .text-section {
-                                                order: 2;
-                                            }
-                                            #hero-section .image-section {
-                                                order: 1;
-                                            }
-                                            .text-section h1 {
-                                                font-size: 35px;
-                                            }
-                                            .right-section ul li a {
-                                                display: block;
-                                            }
-                                            .flex-sm-column {
-                                                flex-direction: column;
-                                            }
-                                            #quote-section .left-section,
-                                            #quote-section .right-form-section {
-                                                width: 100%;
-                                            }
-                                            #quote-section .left-section .image-box {
-                                                width: 10%;
-                                            }
-                                            #quote-section .left-section .text-box {
-                                                width: 80%;
-                                            }
-                                            #quote-section .left-section h2,
-                                            #quote-section .right-form-section h3 {
-                                                font-size: 35px;
-                                            }
-                                            #quote-section .left-section {
-                                                margin-bottom: 40px;
-                                            }
-                                            #process-section .left-quote,
-                                            #process-section .right-quote {
-                                                width: 100%;
-                                            }
-                                            #process-section .left-quote h2,
-                                            #process-section .left-quote p {
-                                                width: 100%;
-                                            }
-                                            #process-section .left-quote {
-                                                margin-bottom: 40px;
-                                            }
-                                            #offer-section .offers .offer-box {
-                                                width: 100%;
-                                            }
-                                            #service-section {
-                                                flex-direction: column;
-                                            }
-                                            #service-section .orange-section,
-                                            #service-section .car-section,
-                                            #service-section .auto-section {
-                                                width: 100%;
-                                            }
-                                            #service-section .orange-text {
-                                                margin-top: 10px;
-                                            }
-                                            #experience-section {
-                                                width: 100%;
-                                            }
-                                            #experience-section .plus {
-                                                align-items: flex-start;
-                                                justify-content: space-around;
-                                                margin-top: 30px;
-                                            }
-                                            #experience-section .plus h2,
-                                            #experience-section .plus p {
-                                                font-size: 20px;
-                                                margin-left: 15px;
-                                            }
-                                            #experience-section .plus h2 {
-                                                font-size: 35px;
-                                            }
-                                            #experience-section .plus p {
-                                                font-size: 15px;
-                                            }
-                                            #brand-section .container h5 {
-                                                padding-top: 30px;
-                                            }
-                                        }
-                                        
-                                        @media (max-width: 769px) {
-                                            .container {
-                                                width: 90%;
-                                            }
-                                            .road-assistance {
-                                                display: none;
-                                            }
-                                            .text-section h1,
-                                            #quote-section .left-section h2,
-                                            #quote-section .right-form-section h3,
-                                            #process-section .left-quote h2 {
-                                                font-size: 35px;
-                                            }
-                                            #process-section {
-                                                justify-content: space-between;
-                                            }
-                                            #quote-section .left-section .image-box {
-                                                width: 15%;
-                                            }
-                                            #quote-section .left-section .text-box {
-                                                width: 70%;
-                                            }
-                                            #offer-section h2 {
-                                                font-size: 35px;
-                                            }
-                                            #offer-section .offers .offer-box {
-                                                width: 32.6%;
-                                                margin-bottom: 8px;
-                                            }
-                                        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#hero-section .text-section,
+#hero-section .image-section {
+    width: 50%;
+}
+
+#hero-section,
+#quote-section,
+#process-section,
+#offer-section {
+    padding: 80px 0px;
+}
+
+#hero-section .image-section {
+    background-image: url(../img/Header\ Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.text-section h1 {
+    font-size: 60px;
+}
+
+.orange-btn {
+    background: #ff6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    font-size: 18px;
+    margin-top: 35px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffff;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.time-section img {
+    width: 100%;
+}
+
+.time-section .image-box {
+    width: 5%;
+}
+
+.time-section .time-text {
+    width: 95%;
+    margin-left: 10px;
+}
+
+.time-section {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #e2e6e9;
+}
+
+#quote-section .left-section,
+#quote-section .right-form-section {
+    width: 45%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 54px;
+    padding-right: 30px;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+#quote-section .left-section .text-box {
+    width: 60%;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section .right-form-section h3 {
+    font-size: 48px;
+}
+
+#quote-section .right-form-section {
+    padding-left: 40px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    color: #1e1b1b;
+}
+
+.right-quote ul {
+    list-style: none;
+}
+
+.right-quote ul li {
+    margin-bottom: 20px;
+}
+
+.right-quote .image-box img {
+    width: 70%;
+}
+
+.right-quote .line-box {
+    width: 5%;
+    margin-left: 14px;
+}
+
+#offer-section h1 {
+    font-size: 58px;
+}
+
+#process-section .left-quote h2 {
+    font-weight: 800;
+    font-size: 58px;
+    margin-top: 40px;
+    width: 70%;
+}
+
+#process-section .left-quote p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1e1b1b;
+    opacity: 0.6;
+    width: 55%;
+}
+
+#offer-section {
+    min-height: 100vh;
+    padding: 80px 0px;
+    background: #e2e6e9;
+}
+
+#offer-section h2,
+#offer-section h5 {
+    text-align: center;
+}
+
+#offer-section h5 {
+    font-size: 20px;
+}
+
+#offer-section h2 {
+    font-size: 40px;
+}
+
+#offer-section .offers .offer-box {
+    background: #fff;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 24.5%;
+    margin-bottom: 10px;
+}
+
+#offer-section .offers {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#offer-section .offers .offer-box:hover {
+    background: #ff6433;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+.learn-arrow a {
+    display: flex;
+    color: #1e1b1b;
+    text-decoration: none;
+}
+
+.learn-arrow {
+    display: flex;
+    justify-content: end;
+}
+
+.learn-arrow a p {
+    margin-right: 10px;
+}
+
+#service-section {
+    height: 500px;
+    display: flex;
+}
+
+#service-section .car-section {
+    width: 20%;
+    height: 500px;
+    background: url(../img/vehicle.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+#service-section .orange-section {
+    width: 40%;
+    background: #ff6433;
+    height: 500px;
+}
+
+#service-section .auto-section {
+    width: 40%;
+    height: 500px;
+    background: url(../img/unsplash.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#service-section .orange-text {
+    color: #fff;
+    font-size: 22px;
+    padding-right: 80px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#experience-section {
+    background: #f2f2f2;
+    height: 210px;
+    padding: 40px;
+}
+
+#experience-section .plus {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#experience-section .plus h2 {
+    font-size: 58px;
+    color: #661ce7;
+}
+
+#experience-section .plus p {
+    font-size: 24px;
+    color: #1e1b1b;
+    opacity: 70%;
+}
+
+#brand-section {
+    background: #fafafa;
+}
+
+#brand-section .container h5,
+#brand-section .container .brand-box {
+    text-align: center;
+}
+
+#brand-section .container h5 {
+    padding-top: 100px;
+}
+
+#brand-section .container h5 {
+    font-size: 48px;
+}
+
+#brand-section img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#faq-section {
+    background: #e2e6e9;
+    min-height: 100vh;
+    padding: 80px 0px;
+}
+
+#faq-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#faq-section .faq-main-box {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#faq-section .faq-main-box .faq-box {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#faq-section .faq-main-box .faq-box .faq-control {
+    background: #ff6433;
+    width: 51.08px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.faq-box .header-section h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.faq-box .header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-box .answer-section {
+    padding: 5px;
+}
+
+.faq-box .answer-section .answer-box {
+    width: 80%;
+}
+
+#customer-section {
+    min-height: 100vh;
+    padding: 80px 0px;
+}
+
+#customer-section .container h2 {
+    text-align: center;
+    font-size: 54px;
+}
+
+#customer-section .customer-slider {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#customer-section .customer-slide {
+    width: 48%;
+    background: #ffffffff;
+    border: 1px solid rgba(172, 172, 172, 0.29);
+    box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
+    border-radius: 6px;
+    padding: 30px;
+}
+
+#customer-section .testimony-person {
+    display: flex;
+}
+
+#customer-section .testimony-person img {
+    height: 30px;
+    width: 30px;
+}
+
+#customer-section .testimony-person .person-info {
+    padding: 0px 10px;
+}
+
+#customer-section .customer-slide .testimony {
+    margin-top: 10px;
+}
+
+#customer-section .dash-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-section {
+    min-height: 100vh;
+    padding: 80px 0px;
+    background: #1E1B1B;
+}
+
+#contact-section .container {
+    color: #ffffffff;
+}
+
+#contact-section .touch-section {
+    display: flex;
+}
+
+#contact-section .left-touch, #contact-section .right-touch {
+    width: 45%;
+    margin-right: 30px;
+}
+
+#contact-section .left-touch {
+    margin-top: 40px;
+}
+
+#contact-section .left-touch h2 {
+    font-size: 48px;
+    padding: 40px 0px;
+}
+
+#contact-section .left-touch .social-media img {
+    padding: 15px;
+} 
+
+#contact-section .right-touch p {
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+#contact-section .right-touch h3 {
+    margin-bottom: 40px;
+}
+
+#contact-section .right-touch {
+    margin-left: 60px;
+    padding-top: 70px;
+}
+
+#footer-section {
+    background: Black;
+}
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5px;
+    color: #fff;
+}
+
+.right-footer-section ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-footer-section ul li {
+    margin-right: 20px;
+}
+
+.right-footer-section ul li a {
+    text-decoration: none;
+    color: #ffffffff
+}
+.main-footer .copyright {
+    opacity: 0.8;
+}
+
+#services-section {
+    padding: 80px 0px;
+    min-height: 100vh;
+}
+
+#services-section .car-section {
+    height: 550px;
+    background: url(../img/servicescar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+#services-section .black-section {
+    height: 550px;
+    background: url(../img/black.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+#services-section .container {
+    display: flex;
+    color: #F2F2F2;
+}
+
+#services-section .black-section .black-text {
+    padding: 30px;
+    margin-top: 60px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+#services-section .black-section .black-text h1 {
+    margin-bottom: 15px;
+    font-size: 64px;
+}
+
+#services-section .black-section .black-text p {
+    font-size: 18px;
+}
+
+#services-section .black-section .black-text .orange-btn {
+    margin-top: 70px;
+}
+
+#auto-diagnostics {
+    padding: 80px 0px;
+    min-height: 100vh;
+    background: #F5F5F5;
+}
+
+#auto-diagnostics .container {
+    display: flex;
+} 
+
+#auto-diagnostics .left-diagnostics, #auto-diagnostics .right-diagnostics {
+    width: 50%;
+}
+
+#auto-diagnostics .left-diagnostics {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+#auto-diagnostics .right-diagnostics {
+    margin-left: 20px;
+}
+
+#auto-diagnostics .left-diagnostics .image-section {
+    background: url(../img/Tire.png);
+    background-repeat: no-repeat;
+    height: 294px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#auto-diagnostics .left-diagnostics .text-section h1 {
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+#auto-diagnostics .left-diagnostics .text-section p {
+    opacity: 0.6;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#auto-diagnostics .left-diagnostics .text-section .details {
+    display: flex;
+}
+
+#auto-diagnostics .left-diagnostics .text-section .details img {
+    margin-left: 20px;
+}
+
+#auto-diagnostics .right-diagnostics .diagnostics .diagnostics-box {
+    background: #fff;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+#auto-diagnostics .diagnostics {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#auto-diagnostics .right-diagnostics .diagnostics :hover {
+    background: #ff6433;
+    color: #fff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+#work-section {
+    padding: 80px 0px;
+    min-height: 100vh;
+ }
+
+#work-section .container {
+    display: flex;
+}
+
+#work-section .left-work, #work-section .right-work {
+    width: 48%;
+    padding: 25px;
+}
+
+#work-section .right-work {
+    display: flex;
+}
+
+#work-section .right-work .img {
+    height: 477px;
+    width: 304px;
+}
+
+#work-section .right-work .right-image {
+    margin-left: 15px;
+}
+
+#work-section .left-work h2 {
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+#work-section .left-work .checkmark {
+    display: flex;
+}
+
+#work-section .left-work .checkmark img {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#work-section .left-work .checkmark p {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+#problem-section {
+    padding: 80px 0px;
+    min-height: 100vh;
+}
+
+#problem-section .container {
+    display: flex;
+    width: 90%;
+}
+
+#problem-section .left-section, #problem-section .right-section {
+    padding: 25px;
+}
+
+#problem-section .left-section {
+  display: flex;
+}
+
+#problem-section .left-section .tires {
+    margin-right: 15px;
+}
+
+#problem-section .left-section img {
+    height: 489px;
+    width: 304px;
+}
+
+#problem-section .right-section {
+    width: 90%;
+}
+
+#problem-section .right-section h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#problem-section .right-section p {
+    font-size: 18px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 426px) {
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+    .right-section .navigation {
+        border: none;
+        width: 100%;
+    }
+    .right-section .navigation ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .right-section ul li {
+        padding: 10px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    #hero-section .text-section,
+    #hero-section .image-section {
+        width: 100%;
+    }
+    #hero-section .text-section {
+        order: 2;
+    }
+    #hero-section .image-section {
+        order: 1;
+    }
+    .text-section h1 {
+        font-size: 35px;
+    }
+    .right-section ul li a {
+        display: block;
+    }
+    .flex-sm-column {
+        flex-direction: column;
+    }
+    #quote-section .left-section,
+    #quote-section .right-form-section {
+        width: 100%;
+    }
+    #quote-section .left-section .image-box {
+        width: 10%;
+    }
+    #quote-section .left-section .text-box {
+        width: 80%;
+    }
+    #quote-section .left-section h2,
+    #quote-section .right-form-section h3 {
+        font-size: 35px;
+    }
+    #quote-section .left-section {
+        margin-bottom: 40px;
+    }
+    #process-section .left-quote,
+    #process-section .right-quote {
+        width: 100%;
+    }
+    #process-section .left-quote h2,
+    #process-section .left-quote p {
+        width: 100%;
+    }
+    #process-section .left-quote {
+        margin-bottom: 40px;
+    }
+    #offer-section .offers .offer-box {
+        width: 100%;
+    }
+    #service-section {
+        flex-direction: column;
+    }
+    #service-section .orange-section,
+    #service-section .car-section,
+    #service-section .auto-section {
+        width: 100%;
+    }
+    #service-section .orange-text {
+        margin-top: 10px;
+    }
+    #experience-section {
+        width: 100%;
+    }
+    #experience-section .plus {
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    #experience-section .plus h2,
+    #experience-section .plus p {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    #experience-section .plus h2 {
+        font-size: 35px;
+    }
+    #experience-section .plus p {
+        font-size: 15px;
+    }
+    #brand-section .container h5 {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 769px) {
+    .container {
+        width: 90%;
+    }
+    .road-assistance {
+        display: none;
+    }
+    .text-section h1,
+    #quote-section .left-section h2,
+    #quote-section .right-form-section h3,
+    #process-section .left-quote h2 {
+        font-size: 35px;
+    }
+    #process-section {
+        justify-content: space-between;
+    }
+    #quote-section .left-section .image-box {
+        width: 15%;
+    }
+    #quote-section .left-section .text-box {
+        width: 70%;
+    }
+    #offer-section h2 {
+        font-size: 35px;
+    }
+    #offer-section .offers .offer-box {
+        width: 32.6%;
+        margin-bottom: 8px;
+    }
+}
